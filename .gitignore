@@ -1,0 +1,46 @@
+
+# MacOS-specific files
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+
+# Swift Package Manager
+.build/
+Package.pins
+Package.resolved
+
+# Carthage
+Carthage/Build/
+
+# Cocoapods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# App code signing
+*.mobileprovision
+*.xcconfig
+
+# Archives
+*.xcarchive
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftUI Previews
+.swiftpm/xcode
+.swiftpm/xcode/.DS_Store
+
+# SwiftPM
+.swiftpm/
